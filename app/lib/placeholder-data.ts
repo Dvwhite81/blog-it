@@ -27,21 +27,21 @@ const blogs: BlogType[] = [
     title: 'First',
     content: 'The first blog content',
     user_id: users[0].id,
-    createdAt: '2022-12-06',
+    created_at: '2022-12-06',
   },
   {
     id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
     title: 'Second',
     content: 'The second blog content',
     user_id: users[1].id,
-    createdAt: '2022-11-14',
+    created_at: '2022-11-14',
   },
   {
     id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
     title: 'Third',
     content: 'The third blog content',
     user_id: users[2].id,
-    createdAt: '2022-10-29',
+    created_at: '2022-10-29',
   },
 ];
 

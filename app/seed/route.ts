@@ -46,7 +46,7 @@ async function seedBlogs() {
     blogs.map(
       (blog) => client.sql`
         INSERT INTO blogs (user_id, title, content, created_at)
-        VALUES (${blog.user_id}, ${blog.title}, ${blog.content}, ${blog.createdAt})
+        VALUES (${blog.user_id}, ${blog.title}, ${blog.content}, ${blog.created_at})
         ON CONFLICT (id) DO NOTHING;
       `
     )
